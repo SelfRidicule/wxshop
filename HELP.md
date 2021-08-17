@@ -21,3 +21,4 @@ The following guides illustrate how to use some features concretely:
 ###mybatis自动生成代码
 ###redis缓存
 ###checkstyle代码格式检查
+###spotbugs代码bug检查
