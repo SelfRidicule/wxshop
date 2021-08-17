@@ -1,6 +1,6 @@
 package com.self.wxshop.controller;
 
-import com.self.wxshop.RedisUtils;
+import com.self.wxshop.utils.RedisUtils;
 import com.self.wxshop.entity.User;
 import com.self.wxshop.service.impl.AuthServiceImpl;
 import com.self.wxshop.service.impl.UserServiceImpl;
