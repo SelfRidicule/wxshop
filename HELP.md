@@ -20,5 +20,6 @@ The following guides illustrate how to use some features concretely:
 #使用
 ###mybatis自动生成代码
 ###redis缓存
-###checkstyle代码格式检查
-###spotbugs代码bug检查
+###Checkstyle代码规范检查工具
+###SpotBugs代码缺陷检查工具
+###jacoco测试覆盖率报告
