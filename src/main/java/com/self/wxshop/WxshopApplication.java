@@ -8,8 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @MapperScan("com.self.wxshop.dao")
 public class WxshopApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(WxshopApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(WxshopApplication.class, args);
+    }
 
 }

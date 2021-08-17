@@ -20,3 +20,4 @@ The following guides illustrate how to use some features concretely:
 #使用
 ###mybatis自动生成代码
 ###redis缓存
+###checkstyle代码格式检查
