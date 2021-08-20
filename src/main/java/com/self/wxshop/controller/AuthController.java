@@ -4,6 +4,7 @@ import com.self.wxshop.utils.RedisUtils;
 import com.self.wxshop.entity.User;
 import com.self.wxshop.service.impl.AuthServiceImpl;
 import com.self.wxshop.service.impl.UserServiceImpl;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -34,6 +35,7 @@ public class AuthController {
 
     }
 
+    @ApiOperation(value = "获取用户列表", notes = "")
     @GetMapping("/data")
     public Object data() {
         return new User();
