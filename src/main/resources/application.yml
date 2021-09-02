@@ -12,3 +12,5 @@ spring:
     password: 123456
 mybatis:
   mapper-locations: classpath:mapper/*Mapper.xml
+logback:
+  config: classpath:log/logback-spring.xml

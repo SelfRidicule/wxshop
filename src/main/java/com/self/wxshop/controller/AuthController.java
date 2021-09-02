@@ -5,6 +5,8 @@ import com.self.wxshop.entity.User;
 import com.self.wxshop.service.impl.AuthServiceImpl;
 import com.self.wxshop.service.impl.UserServiceImpl;
 import io.swagger.annotations.ApiOperation;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -14,6 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api")
 public class AuthController {
+
+    private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Autowired
     AuthServiceImpl authService;
@@ -38,6 +42,7 @@ public class AuthController {
     @ApiOperation(value = "获取用户列表", notes = "")
     @GetMapping("/data")
     public Object data() {
+        logger.info("1111");
         return new User();
     }
 
