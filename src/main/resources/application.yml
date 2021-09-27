@@ -1,4 +1,8 @@
+server:
+  port: 8081
 spring:
+  application:
+    name: wxshop
   #  数据库驱动
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
@@ -14,3 +18,9 @@ mybatis:
   mapper-locations: classpath:mapper/*Mapper.xml
 logback:
   config: classpath:log/logback-spring.xml
+wxshop:
+  orderservice:
+    version: 1.0.0
+dubbo:
+  registry:
+    address: zookeeper://127.0.0.1:2181
