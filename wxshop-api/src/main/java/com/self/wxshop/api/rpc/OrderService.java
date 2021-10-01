@@ -1,4 +1,4 @@
-package com.self.wxshop.api;
+package com.self.wxshop.api.rpc;
 
 public interface OrderService {
 

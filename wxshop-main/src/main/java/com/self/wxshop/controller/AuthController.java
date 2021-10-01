@@ -1,6 +1,6 @@
 package com.self.wxshop.controller;
 
-import com.self.wxshop.api.OrderService;
+import com.self.wxshop.api.rpc.OrderService;
 import com.self.wxshop.utils.RedisUtils;
 import com.self.wxshop.entity.User;
 import com.self.wxshop.service.impl.AuthServiceImpl;
