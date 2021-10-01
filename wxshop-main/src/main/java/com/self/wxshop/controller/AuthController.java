@@ -71,4 +71,8 @@ public class AuthController {
         return orderService.rpcVersion("aaa");
     }
 
+    @GetMapping("/error")
+    public Object error() {
+        throw new RuntimeException("error");
+    }
 }
